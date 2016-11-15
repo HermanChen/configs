@@ -1,0 +1,47 @@
+[color]
+	ui = auto
+	branch = auto
+	diff = auto
+	grep = auto
+	interactive = auto
+	status = auto
+	showbranch = auto
+[alias]  
+	st = status -bs
+	br = branch -av
+	ci = commit
+	co = checkout
+[user]
+	email = herman.chen@rock-chips.com
+	name = Herman Chen
+[core]
+	editor = vim
+	quotepath = false
+	autocrlf = false
+	filemode = false
+	whitespace = cr-at-eol
+[diff]
+	tool = bc3
+[gui]
+	encoding = utf-8
+[i18n]
+	commitencoding = utf-8
+	logoutputencoding = gbk
+[https]
+	postBuffer = 524288000
+[http]
+	postBuffer = 524288000
+	cookiefile = /home/herman/.gitcookies
+[branch]
+	autosetuprebase = always
+[rebase]
+	autosquash = true
+[difftool]
+	bcompare = trustExitCode
+	bc3 = trustExitCode
+[merge]
+	tool = bc3 meld
+[mergetool]
+	bc3 = trustExitCode
+[push]
+	default = matching

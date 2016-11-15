@@ -1,0 +1,12 @@
+set completion-ignore-case on
+set match-hidden-files off
+set show-all-if-ambiguous on
+set completion-query-items 80
+set bell-style none
+set editing-mode vi
+set blink-matching-paren on
+set output-meta on
+set convert-meta off
+#Move in history using up and down arrows
+"\e[A": history-search-backward
+"\e[B": history-search-forward
